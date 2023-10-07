@@ -34,6 +34,27 @@ body{
 .label:hover{
     letter-spacing: 2px;
 }
+.span_text{
+    background-color: #fff;
+    display: none;
+    width: 180px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 35px;
+    color: #0984e3;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;  
+    position: absolute;
+    top: -1px;
+    right: 0px;    
+}
+#share_:checked + label .span_text{
+    display: block;
+}
 .share_icon{
     background-color: #fff;
     border-radius: 35px;
