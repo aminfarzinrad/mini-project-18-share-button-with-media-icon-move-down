@@ -28,6 +28,11 @@ body{
     border-radius: 35px;
     color: #0984e3;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.label:hover{
+    letter-spacing: 2px;
 }
 .share_icon{
     background-color: #fff;
