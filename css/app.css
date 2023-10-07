@@ -5,5 +5,30 @@
   box-sizing: border-box;
 }
 body{
-    font-family:'Poppins';    
+    font-family:'Poppins';
+    background-color: #0984e3;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
+.container{}
+.input{}
+.label{
+    background-color: #fff;
+    display: block;
+    width: 180px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 35px;
+    color: #0984e3;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.share_icon{
+    opacity: 0;
+}
+.icon_a{}
+.icon_i{}
